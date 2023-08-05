@@ -41,7 +41,7 @@ jobs:
       url: http://valuable-coach.surge.sh
     steps:
       - name: Download the build artifact
-        uses: actions/download-artifacts@v3.0.0
+        uses: actions/download-artifact@v3.0.0
         with: 
           name: build
       - name: deploy to surge
